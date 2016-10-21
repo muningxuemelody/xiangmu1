@@ -1,0 +1,20 @@
+.reg_head{background: #fff;}
+.lianjie_B{width:980px;border-bottom:1px solid #ccc;margin:auto;height: 25px;}
+
+
+.register_body{background: #fff}
+.xiangqing_banner_L{width:190px;float:left}
+.xiangqing_banner_R{width:790px;float:right;}
+/*----------------------------详情开始--------------------------------*/
+.xiangqingstr{width: 982px;}
+.xiangbox{width: 982px;position: relative;margin-left: -15px!important;}
+.xiang{border-bottom:2px solid #f00;padding-bottom:50px;width: 320px;padding-left: 0px;overflow: hidden;}
+.glyphicon-heart{color: #f00;}
+.xiang .red{color:#f00;}
+.xiang dt{border-top: 2px dashed #ccc;padding-top: 5px;}
+.xiang dt p{color: #999999;font-weight:normal;}
+.xiang_div_btn{position: absolute;top:350px;}
+.xiang_div_btn .btn-group{width: 320px;}
+.xiang_div_btn .btn-group button{border: none;border-right:1px solid #fff;height: 30px;}
+.xiang_div_btn .xiang_div_btn_gwc button{border:none;border-top:1px solid #fff;height:50px}
+

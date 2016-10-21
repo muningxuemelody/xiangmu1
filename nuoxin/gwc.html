@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> 诺心蛋糕--购物车</title>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/gwc.css">
+<link rel="stylesheet" href="css/common.css"> <!-- 公共样式 -->
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+
+<script src="js/jquery-1.11.0.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.cookie.js"></script>
+
+</head>
+
+<body>
+
+<!-- 头部1开始 -->
+		<div class="lianjiebox">
+				<div class="lianjie_L row col-md-10 col-md-offset-1">
+				<!-- 链接开始 -->
+					<div class="col-md-4">
+						<ul class="nav nav-pills" role="tablist">
+						   <li><a href="index.html"><img src="images/title/nav1.jpg" alt=""></a></li>
+						  <li><a href="xiangqing.html"><img src="images/title/nav2.jpg" alt=""></a></li>
+						   <li><a href="#"><img src="images/title/nav3.png" alt=""></a></li>
+						   
+						</ul>
+					</div>
+					<div class="logo_pic col-md-2"><img src="images/logo/logo.jpg" alt=""></div>
+					<div id="wrap" class="col-md-4 col-md-offset-2">
+						<ul class="lianjie_R nav nav-pills" role="tablist">
+						   <li role="presentation"><a href="#"><img src="images/title/nav5.jpg" alt=""></a></li>
+						  <li role="presentation"><a href="#"><img src="images/title/nav6.jpg" alt=""></a></li>
+						   <li role="presentation"><a href="#"><img src="images/title/nav7.jpg" alt=""></a></li>
+				
+						</ul>
+					</div>
+			
+			</div>
+		</div>
+	<div class="container-fluid">
+		<div class="reg_head row">
+				<div class="lianjie_B">
+						<!-- 链接开始 -->
+							<div class=" lianjie_B_Top col-md-5">
+								<ul class=" nav nav-pills" role="tablist">
+								   <li><a href="#">小米网</a></li>
+								  <li class="col-md-10"><a href="#"> 全国客服热线&nbsp;&nbsp;4001-578-578&nbsp;&nbsp;服务时间&nbsp;&nbsp;8:30-22:30</a></li>
+								</ul>
+							</div>
+							<div id="wrap" class="col-md-5 right">
+								<ul class="col-md-12 lianjie_B_B nav-pills">
+								   <li><a href="login.html">登录</a></li>
+								  <li><a href="register.html">注册</a><span>|</span></li>
+								   <li><a href="#">购物车</a><span>|</span></li>
+								    <li><a href="#">帮助</a><span>|</span></li>
+								</ul>
+							</div>
+						
+					</div>
+			</div>
+
+		</div>
+		<!-- 下面的是内容部分 -->
+		<!-- 进度条部分开始 -->
+		<div class="container">
+			<div class="gwc_body row">
+			
+			     <div class="jindutiao">
+				   <div class="jindutiao-plan"></div>
+						<ul>
+							<li><em class="s-color">我的购物车</em></li>
+							<li style="width:440px;">填写核对订单信息</li>
+							<li>成功提交订单</li>
+						</ul>
+					</div>
+					<!-- 表格部分开始 -->
+					<div class="tablebox">
+			              <table cellspacing="0" class="tablebox_top">
+							<thead>
+								<tr>
+									<td width="30px"><input id="select" type="checkbox" checked="checked"></td>
+									<td width="140px" style="text-align:left;padding-left:0px;">全选&nbsp;&nbsp;&nbsp;商品信息</td>
+									<td width="*"></td>
+									<td width="80px">价格</td>
+									<td width="100px">数量</td>
+									<td width="85px">小计</td>
+									<td width="150px">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+									<td width="45px">操作</td>
+								</tr>
+							</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" id="" checked="checked">
+							</td>
+							<td>
+								<a href="" target="_blank" title="蓝莓拿破仑蛋糕" class="">
+									<img src="http://imagecdn.lecake.com/postsystem/docroot/images/goods/201303/12085/thumb_12085.jpg?v=20160929174259" alt="蓝莓拿破仑蛋糕" height="63px" style=" margin-left:-12px">
+								</a>
+															
+							</td>
+							<td class="">
+								<div class=""><a href="" target="_blank" title="蓝莓拿破仑蛋糕">蓝莓拿破仑蛋糕</a></div>
+								<div class="free-g">
+									<span>
+										规格：1磅
+									</span>
+									<span>免费配送5套餐具</span>
+								</div>
+								
+        
+							</td>
+							<td>
+								<span class="cart-price">
+									￥198.00
+								</span>
+							</td>
+							<td>
+								<span class="cart-price">
+									0
+								</span>
+							</td>
+							<td>
+								<div class="cart-num">
+									
+										<input type="text" id="" class="" value="1">
+                                    
+							
+							</div>
+							</td>
+						
+							<td>
+								￥<span class="price">198.00</span>元
+							</td>
+							<td>
+								<a onclick="cart_operate.delOne('102024'); return false;" href="" class='gwc_delete'>删除</a>
+							</td>
+					</tr>
+				</tbody>
+		</table>
+					</div>
+					<!-- 表格部分结束 -->
+			<!-- 购物车按钮部分开始 -->
+			<div class="jiesuanbox">
+				<div class="jiesuan_L">
+					<div class="all_delete"><a>批量删除</a></div>
+					
+				</div>
+				<div class="jiesuan_R">
+
+					<div class="jiesuanheji">商品件数
+						<span class="num-sum">1</span>件
+						<span class="price-sum">￥198.00元</span>
+					</div>
+					<span></span>
+					<div class="jiesuan_btn">
+				               <a href="xiangqing.html"> <button class="btn1">继续购物</button></a>
+				                <button class="btn2">去结算</button>
+	                </div>
+				</div>
+			</div>
+			<!-- 购物车按钮部分结束 -->
+		</div>
+	</div>
+	<!-- 下面是bottom部分 -->
+
+<!-- ***********************************footer***************************************** -->
+	<div class="footer">
+		<div class="footer_con">
+			<div class="d1">
+				<img class="fl" src="images/img/TN_but_LOGO.png" alt="">
+				<p class="fl">
+					<span>新鲜配送上门</span>
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>|
+					<a href="javascript:;">上海</a>| 
+					<a href="javascript:;">上海</a>| 
+				</p>
+			</div>
+			<ul class="d2">
+				<li><img src="images/img/boli1.png" alt=""><i>全年无休</i></li>
+				<li><img src="images/img/boli2.png" alt=""><i>安全配送</i></li>
+				<li><img src="images/img/boli3.png" alt=""><i>品质保证</i></li>
+				<li><img src="images/img/boli4.png" alt=""><i>上乘食材</i></li>
+				<li><img src="images/img/boli5.png" alt=""><i>专业客服</i></li>
+				<li><img src="images/img/boli2.png" alt=""><i>企业采购</i></li>
+			</ul>
+			<p class="d3">
+				<a href="javascript:;">关于诺心</a>|
+				<a href="javascript:;">人才招聘</a>|
+				<a href="javascript:;">练习我们</a>|
+				<a href="javascript:;">呼叫中心</a>|
+				<a href="javascript:;">品牌理念</a>|
+				<a href="javascript:;">客服服务</a>|
+				<a class="gongshang"><img src="images/img/gongshang.gif" alt=""></a>
+			</p>
+			<p class="TN_Fstree L">
+            <a href="http://www.miibeian.gov.cn/" target="_blank">沪ICP备10211730</a> |
+            <span><a href="http://rescdn.lecake.com/shop/lecake/theme/xth2/images/index/business_certificate3.jpg" style="margin: 0" target="_blank">社会信用代码：913100005648062293</a></span> |
+            <span><a href="http://rescdn.lecake.com/shop/lecake/theme/xth2/images/index/business_certificate1.jpg" style="margin: 0" target="_blank">食品经营许可证</a></span> |
+            <span><a href="http://rescdn.lecake.com/shop/lecake/theme/xth2/images/index/business_certificate2.jpg" style="margin: 0" target="_blank">诺心上海生产许可证</a></span> |
+            <span>copyright©2010-2016诺心lecake.com版权所有</span> <br>
+            <span>公司名称：诺心食品（上海）有限公司</span> |
+            <span>公司地址：上海徐汇区田林路140号28号楼</span> |
+            <span>客服邮箱: services@lecake.com</span> |
+            <span>公司电话：4001-578-578</span>
+
+        </p>
+		</div>
+	</div>
+	
+<script>
+
+	$(document).ready(function($) {
+		var str3 = "";
+		var str4 = "";
+		var str5 = "";
+		var value1 = 0
+		var sum = 0;
+		var sum1 = 0;
+		
+		if($.cookie("cart")){//判断一下cookie是否纯在如果存在则转换 如果不存在就赋值为空 省的报错
+				var cookieObj = JSON.parse($.cookie("cart"))
+				// console.log(cookieObj);//输出的值就是cookie里的num值
+			}else{
+				var cookieObj = {};
+			}
+		// var cookieObj = JSON.parse($.cookie("cart"))||0;//将字符串格式转换成json格式 为了下面遍例循环key和value值
+
+	/*---------------把购物车商品取出来并且拼接到购物车页面里-----------------------*/ 
+		$.ajax({
+		url: 'js/xiangqing.json',
+		
+		})
+		.done(function(data) {
+			$.each(data,function(index,data) {//循环原来的json数据为了和详情页里面产来的数据进行id的比较匹配
+				// console.log(cookieObj)
+				$.each(cookieObj,function(key,value) {//循环详情页里面加入购物车的cookie数据
+					// console.log(key)
+					if(key==data.id){//如果cookie里的数据和json里的数据匹配上了  执行以下代码(把获得的商品名 商品价格 商品id插入到购物车的table里面)
+						// console.log(data.id,data.title,data.price);
+						// console.log(value)
+						value1 += value//value1是所有商品的总数量
+						sum = value * data.price;//单个商品的价格=数量*单价
+						sum1+=sum;//是最后顾客所需要支付的总额
+						str3 += "<tr id='product_"+key+"'>"
+							+"<td><input type='checkbox' id='' checked='checked'></td>"
+							+"<td>"
+							+"<a href='' target='_blank' title='蓝莓拿破仑蛋糕' class=''>"
+							+"<img src='"+data.imgres+"' alt='蓝莓拿破仑蛋糕' height='63px' style=' margin-left:-12px'></a>"
+							+"</td>"
+                          	+"<td class=''>"
+							+"<div class=''><a href='#' target='_blank' title='蓝莓拿破仑蛋糕'>"+data.title+"</a></div>"
+							+"<div class='free-g'>"
+							+"<span>规格：1磅</span><span>免费配送5套餐具</span>"
+							+"</div>"
+							+"</td>"
+							+"<td><span class='cart-price'>￥"+data.price+"</span></td>"
+							+"<td><span class='cart-price'>"+value+"</span></td>"
+							+"<td>"
+							+"<div class='cart-num'>"
+							+"<input type='text' id='' class='' value='输入文字制作DIY生日牌'>"
+							
+							+"</div>"
+							+"</td>"
+						
+							+"<td>￥<span class='price'>"+sum+"</span>元</td>"
+							+"<td>"
+							+"<a href='javascript:;' class='gwc_delete' data-id="+key+"><button>删除</button></a>"
+							+"</td>"
+							+"</tr>";
+							
+					}
+						
+				});
+				$("tbody").html(str3);//增加的商品插入到table里
+			});    
+		
+			str4+= "<div class='jiesuanheji'>商品件数<span class='num-sum'>"+value1+"</span>件<span class='price-sum'>￥"+sum1+"元</span>"
+					+"</div>" 
+			$(".jiesuan_R div:first").html(str4)//商品总件数和金额
+	/*-----------------------------按删除键时--商品部分被删除----------------------------*/ 
+				$(".gwc_delete").click(function(){//删除商品
+						
+						var prodId =$(this).attr("data-id");
+						// console.log(prodId)
+						var obj = JSON.parse($.cookie("cart"));//将字符串转换成object格式
+					// console.log(obj[prodId])//通过测试已经是object格式
+					
+	/*--------------------按删除键时-对应的商品总价格部分变化------------------------*/				
+					var prod_danjiasum=data[prodId].price*obj[prodId]
+					sum1=sum1-prod_danjiasum;
+					value1 = value1 - obj[prodId];
+					console.log(value1,sum1);
+	
+					$(".jiesuanheji").children('span').eq(0).html()
+					str5= "<div class='jiesuanheji'>商品件数<span class='num-sum'>"+value1+"</span>件<span class='price-sum'>￥"+sum1+"元</span>"
+					+"</div>" ;
+					
+					$(".jiesuan_R div:first").html(str5)
+	/*-----------------下面还是（按删除键时--商品部分被删除）的继续-----------------------*/					
+						delete obj[prodId] ;
+						// console.log(obj)
+						// $.cookie("cart",obj,{expires:7,path:"/"})
+						$.cookie("cart",JSON.stringify(obj),{expires:7,path:"/"});
+						$(this).parents("tr").remove();
+				});
+	/*-------------------------------点击批量删除按钮时部分--------------------------*/			
+				$(".all_delete").click(function(){
+					$.removeCookie("cart",{path:"/"});//这是cookie最好的删除方法
+					$("tbody").remove();
+					str5= "<div class='jiesuanheji'>商品件数<span class='num-sum'>"+0+"</span>件<span class='price-sum'>￥"+0+"元</span>"
+					+"</div>" ;
+					$(".jiesuan_R div:first").html(str5)
+			});
+
+		});
+});
+
+	
+</script>
+</body>
+</html>

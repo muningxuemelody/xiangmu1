@@ -1,0 +1,252 @@
+body{ font-family: "微软雅黑";background: url(../images/bg/bodybg.jpg);}
+ul{padding: 0;}
+h1{padding: 0; margin: 0;}
+.index_body{background: #fff;}
+/*-------------------------这里是header的样式-------------------------------*/
+.lianjiebox{background: #c8bb9b;width: 100%;height:52px;}
+/*-------------------------这里是header的样式-------------------------------*/
+.xialabox{}
+.xiala_ul1{
+	position: absolute;
+	top:52px;
+	z-index: 5;
+	height:200px;
+	float:left;
+	padding-left:0;
+	left:185px;
+	background: rgba(183, 183, 183, 0.7);
+	display: none;
+	width:150px;
+}
+.xiala_ul2{
+	position: absolute;
+	top:52px;
+	z-index: 5;
+	height:200px;
+	float:left;
+	padding-left:0;
+	left:340px;
+	background: rgba(183, 183, 183, 0.7);
+	width:150px;
+	display: none;
+}
+.xiala_ul3{
+	position: absolute;
+	top:52px;
+	z-index: 5;
+	height:200px;
+	float:left;
+	padding-left:0;
+	left:800px;
+	background: rgba(183, 183, 183, 0.7);
+	width:150px;
+	display: none;
+}
+.xiala_ul4{
+	position: absolute;
+	top:52px;
+	z-index: 5;
+	height:200px;
+	float:left;
+	padding-left:0;
+	left:950px;
+	background: rgba(183, 183, 183, 0.7);
+	width:150px;
+	display: none;
+}
+.xiala_ul1 li,.xiala_ul2 li,.xiala_ul3 li,.xiala_ul4 li{
+	z-index: 100px;
+	width:150px;
+	height:30px;
+	padding-left: 20px;
+}
+.xiala_ul1 li a,.xiala_ul2 li a,.xiala_ul3 li a,.xiala_ul4 li a{
+	z-index: 100px;
+	padding-top: 5px;
+	display: block;
+	width: 110px;
+	height:30px;
+	border-top: 1px dashed #fff;
+	text-align: center;
+	color:#fff;
+	text-decoration: none;
+	font-size:16px;
+}
+/*-------------------------这里是header的样式-------------------------------*/
+
+.lianjiebox .lianjie_L ul li a{padding: 0;}
+.lianjie_B ul li a{color:#ff4051!important;}
+.lianjie_B_Top .nav li a{padding: 0;margin:0;}
+.lianjie_B .lianjie_B_B{padding-right: 0!important;margin-bottom: 0px;height: 25px;line-height: 25px;}
+.lianjie_B .lianjie_B_B li{float: right;width: 20%}
+.lianjie_B .lianjie_B_B li a{margin-right:10px;}
+.index_box{width: 982px;margin:0 auto;}
+/*-------------------------这里是轮播图的样式-------------------------------*/
+#scroll_box {
+				width: 100%;
+				height: 340px;
+				overflow: hidden;
+				position: relative;
+			}
+			
+			#scroll_box li {
+				float: left;
+				width: 100%;
+			}
+			
+			#scroll_box li a {
+				display: block;
+				width: 100%;
+				height: 340px;
+				overflow: hidden;
+				background: url(../images/banner/banner1.jpg) no-repeat center center;
+			}
+			
+			#scroll_box .slider-nav {
+				width: 800px
+				margin:auto;
+				
+				position: absolute;
+				top: 300px;
+				left:250px;
+			}
+			
+			#scroll_box .slider-nav a {
+				float: left;
+				width: 100px;
+				height: 5px;
+				margin-right: 1px;
+				background: #404449;
+				cursor: pointer;
+				opacity: 0.7;
+				fiter: alpha(opacity=70);
+			}
+			
+			#scroll_box .slider-nav a.cur,
+			#scroll_box .slider-nav a:hover {
+				background: #ff2d54;
+			}
+			
+			#scroll_box .btn {
+				position: absolute;
+				width: 40px;
+				height: 80px;
+				background: rgba(0, 0, 0, .5);
+				color: white;
+				text-align: center;
+				line-height: 80px;
+				cursor: pointer;
+				font-size: 40px;
+				top: 50%;
+				margin-top: -40px;
+			}
+			
+			#prev {
+				left: 10%;
+				top: 50%;
+				margin-top: -40px;
+			}
+			
+			#next {
+				right: 10%;
+			}
+			a {
+				text-decoration: none;
+				color: #333;
+			}
+			
+			a:hover {
+				color: red;
+			}
+			img{
+				display: block;
+				border: none;
+			}
+			.container_ul .clearfix:after {
+				content: "";
+				display: block;
+				height: 0;
+				overflow: hidden;
+				clear: both;
+			}
+			#product_list li{
+				float: left;
+				margin: 10px;
+				width:188px;
+				border:1px solid #aaa;
+				padding: 10px;
+				line-height: 32px;
+			}
+			.price{
+				font-size:16px;
+			}
+			.btn{
+				display: block;
+				width:100px;
+				height:32px;
+				background: red;
+				color: white;
+				border:none;
+				margin: 0 auto;
+				cursor: pointer;
+			}
+/*-------------------------这里是滑入样式开始------------------------------*/
+.container{width: 982px;position: relative;overflow: hidden;}
+.container_ul{}
+.container_ul li{float: left;margin-top: 10px;}
+.container_ul_li_M{margin-right: 10px;margin-left: 10px;}
+.container .container_ul li a {
+				display: block;
+				width: 320px;
+				height: 200px;
+				overflow: hidden;
+				background: url(../images/img/cont1.jpg) no-repeat center center;
+			}
+.container_div a{position: absolute;z-index: 100;}
+.container_div .a1{left:-650px;top:10px;}
+.container_div .a2{left:330px;top:-410px;}
+.container_div .a3{right:-650px;top:10px;}
+.container_div .a4{left: 330px;bottom: -410px}
+/*-------------------------这里是大图部分------------------------------*/
+.big_pic{width: 982px;margin-left: 0;}
+.big_pic div{float: left;}
+.big_pic ul{float: right;}
+.big_pic .big_pic_li2{margin-top: 10px;}
+/*-------------------------这里是详情部分------------------------------*/
+.xiangbox{width: 982px;margin-left: 0;position: relative;overflow: hidden;}
+.xiang{border-bottom:2px solid #f00;padding-bottom:50px;width: 320px;margin-right: 10px;padding-left: 0px;}
+.xiang2{border-bottom:2px solid #f00;padding-bottom:50px;width: 320px;margin-right: 10px;padding-left: 0;}
+.xiang3{border-bottom:2px solid #f00;padding-bottom:50px;width: 320px;padding-left: 0;}
+.glyphicon-heart{color: #f00;}
+.xiang .red{color:#f00;}
+
+
+.xiang_div_btn{position: absolute;top:305px;}
+.xiang_div_btn .btn-group{width: 320px;}
+.xiang_div_btn .btn-group button{border: none;border-right:1px solid #fff;height: 30px;}
+.xiang_div_btn .xiang_div_btn_gwc button{border:none;border-top:1px solid #fff;height:50px}
+/*--------------------------------------footer----------------------------------------------*/
+.bottom{width: 980px;margin:0 auto;}
+.footer{background: #fefaec;color:#ad9a55;}
+.footer_con{width:980px;margin:0 auto;}
+.footer a{color:#ad9a55;}
+.footer_con .fl{float: left;}
+.footer .d1{overflow:hidden; background: url(../images/img/d1bg.png) no-repeat center bottom;}
+.footer .d1 p{margin-top: 30px;height: 20px;line-height: 20px;font-size: 13px;font-weight: bold;}
+.footer .d1 p span{display: inline-block;width:120px;font-size: 16px;text-align: center;}
+.footer .d1 p a{padding:0 4px;}
+
+.footer .d2{width:960px;height: 73px;padding-left:6px;overflow: hidden;background: url(../images/img/d2bg.png) no-repeat center bottom;}
+.footer .d2 li{font-weight: bold; width: 159px;height: 52px;margin-top: 10px;font-size: 18px;float: left;line-height: 52px;text-align: left;}
+.footer .d2 li img{float:left;margin-right: 5px;}
+.gongshang{left: 630px;position: absolute;}
+.footer .d3{height: 70px;margin-top: 30px;width:980px;position:relative;margin-left: 80px;}
+.footer .d3 a{font-size: 16px; line-height: 20px;margin:0 18px;}
+.TN_Fstree {
+	margin:auto;
+    width: 980px;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+}
+/*----------------------------二级菜单--------------------------------------*/

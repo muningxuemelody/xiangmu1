@@ -1,0 +1,67 @@
+.reg_head{background: #fff;}
+.lianjie_B{width:980px;border-bottom:1px solid #ccc;margin:auto;height: 25px;}
+
+a {cursor:pointer;}
+/*----------------------------详情开始--------------------------------*/
+.gwc_body{background: #fff;width:980px;padding-bottom: 40px;padding-top: 20px;}
+/*----------------------------进度条部分--------------------------------*/
+
+.jindutiao{
+	width:810px;
+    margin:0 auto;
+    overflow:hidden;
+    padding-top:10px;
+}
+.jindutiao-plan{
+	margin:0 auto;
+    background-position:-32px -161px;
+    width:700px;
+    height:49px;
+    background:url(../images/btn/all.png) no-repeat 0px -161px;
+}
+
+.jindutiao li{
+    width:180px;
+    text-align:center;
+    color:#7C7B7B;
+    float: left;
+}
+.s-color{
+    color:#43232e;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*-----------------------------table部分-------------------------*/
+
+.tablebox{
+    width:100%;
+    font-size:13px;
+    padding-top:10px;
+    overflow:hidden;
+    font-family:'微软雅黑';
+}
+.tablebox thead tr{margin-bottom: 5px;background-color: #f2f2f2;border-bottom: 1px solid #ccc;}
+.tablebox_top{
+    width:980px;
+    border:2px solid #CCCCCC;
+    font-family:'微软雅黑';
+
+}
+.cart-content table thead  td{
+    background:#f2f2f2;
+    height:40px;
+    text-align:center;
+    color:#515151;
+}
+/*-----------------------------结算部分-------------------------*/
+.jiesuanbox{
+	width:100%;
+    padding-top:10px;
+    overflow:hidden;
+}
+.jiesuan_L .delete{padding-left:15px;float:left;}
+.jiesuan_R{float:right;padding-right: 20px;}
+.jiesuan_btn{padding-top:15px;}
+.jiesuan_btn .btn1{display:block;height:30px;background:#dcdcdc;border:none;float:left}
+.jiesuan_btn .btn2{display:block;height:30px;background:#f00;border:none;float:right}

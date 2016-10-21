@@ -1,0 +1,86 @@
+{
+	"0001":{
+		"id": "0001",
+		"imgres":"images/xiangqing/xiangqing1.jpg",
+		"title": "雪域牛乳芝士蛋糕",
+		"price": "200.00"
+	}, 
+	"0002":{
+		"id": "0002",
+		"imgres":"images/xiangqing/xiangqing2.jpg",
+		"title": "提拉米苏乐脆蛋糕",
+		"price": "198"
+	},
+		"0003":{
+		"id": "0003",
+		"imgres":"images/xiangqing/xiangqing3.jpg",
+		"title": "栗香飘飘",
+		"price": "218.00"
+	}, 
+	"0004":{
+		"id": "0004",
+		"imgres":"images/xiangqing/xiangqing4.jpg",
+		"title": "诺心花园.秋月蛋糕",
+		"price": "218"
+	},
+		"0005":{
+		"id": "0005",
+		"imgres":"images/xiangqing/xiangqing5.jpg",
+		"title": "雪域蓝莓芝士蛋糕",
+		"price": "198.00"
+	}, 
+	"0006":{
+		"id": "0006",
+		"imgres":"images/xiangqing/xiangqing6.jpg",
+		"title": "玫瑰雪域芝士蛋糕",
+		"price": "218"
+	},
+		"0007":{
+		"id": "0007",
+		"imgres":"images/xiangqing/xiangqing7.jpg",
+		"title": "海盐乳酪芝士蛋糕",
+		"price": "228.00"
+	}, 
+	"0008":{
+		"id": "0008",
+		"imgres":"images/xiangqing/xiangqing8.jpg",
+		"title": "芒果雪域芝士蛋糕",
+		"price": "198"
+	},
+		"0009":{
+		"id": "0009",
+		"imgres":"images/xiangqing/xiangqing9.jpg",
+		"title": "你好米菲芝士蛋糕",
+		"price": "228.00"
+	}, 
+	"00010":{
+		"id": "00010",
+		"imgres":"images/xiangqing/xiangqing10.jpg",
+		"title": "派对物语",
+		"price": "218"
+	},
+		"00011":{
+		"id": "00011",
+		"imgres":"images/xiangqing/xiangqing11.jpg",
+		"title": "罗马假日",
+		"price": "258.00"
+	}, 
+	"00012":{
+		"id": "00012",
+		"imgres":"images/xiangqing/xiangqing12.jpg",
+		"title": "繁星之吻",
+		"price": "243"
+	},
+		"00013":{
+		"id": "00013",
+		"imgres":"images/xiangqing/xiangqing13.jpg",
+		"title": "雪域榴香芝士蛋糕",
+		"price": "131.00"
+	}, 
+	"00014":{
+		"id": "00014",
+		"imgres":"images/xiangqing/xiangqing14.jpg",
+		"title": "双梅提拉米苏乐脆蛋糕",
+		"price": "1314"
+	}	
+}

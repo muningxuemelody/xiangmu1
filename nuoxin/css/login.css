@@ -1,0 +1,16 @@
+.reg_head{background: #fff;}
+.lianjie_B{width:980px;border-bottom:1px solid #ccc;margin:auto;}
+.register_body{background: #fff}
+.register_head{background: url(../images/bg/user_login.png) no-repeat 20px top;height:62px;}
+.reg_logo{margin-bottom: 20px;}
+.reg_logo ul{border-bottom: 3px solid #ff4001 !important;}
+.reg_logo ul li{padding-left: 20px;width: 150px;text-align: center;}
+.reg_logo ul li a{background-color: #ff4001!important;color:#fff!important;font-family: 13px;}
+
+
+
+
+
+.explain{height: 20px;color:#ccc;}
+.go-register{height: 24px}
+.register_pic{width: 508px;height:200px;padding-top:80px;}
